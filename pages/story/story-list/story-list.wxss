@@ -1,0 +1,9 @@
+.story-rule {
+  margin: 50rpx;
+}
+
+.story-rule-text {
+  font-size: 35rpx;
+  line-height: 44rpx;
+  word-break: break-all;
+}

@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/story/story-list/story-list"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#4B4B4B"
+  },
+  "sitemapLocation": "sitemap.json"
+}
