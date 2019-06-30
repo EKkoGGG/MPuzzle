@@ -14,12 +14,10 @@
 .motto {
   margin-top: 10rpx;
   font-size: 40rpx;
-  /* font-weight: bold; */
 }
 
 .welcome-button-stroy {
   margin-top: 100rpx;
-  /* border: 0px solid #767676; */
   border-bottom: 1px solid #767676;
   width: 350rpx;
   height: 80rpx;
@@ -36,12 +34,12 @@
 
 .welcome-button-puzzle {
   margin-top: 50rpx;
-  /* border: 0px solid #767676; */
   border-bottom: 1px solid #767676;
   width: 350rpx;
   height: 80rpx;
   border-radius: 5px;
   text-align: center;
+  
 }
 
 .puzzle-text {

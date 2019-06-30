@@ -1,3 +1,9 @@
+.container{
+  display:flex;
+  flex-direction: column;
+  
+}
+
 .story-rule {
   margin: 50rpx;
 }
@@ -6,4 +12,10 @@
   font-size: 35rpx;
   line-height: 44rpx;
   word-break: break-all;
+}
+
+.story-button{
+  margin-top: 10rpx;
+  margin-left: 15rpx;
+  margin-right: 15rpx;
 }

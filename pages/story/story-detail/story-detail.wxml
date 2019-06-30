@@ -1,0 +1,5 @@
+<view class='story-detail'>
+  <text class='story-detail-text' selectable='true'>{{story_data.question}}</text>
+  <button class='story-detail-button' catchtap='onStoryDetail'>显示答案</button>
+  <text class='story-detail-answer' selectable='true' style='{{visibility}}'>{{story_data.answer}}</text>
+</view>
