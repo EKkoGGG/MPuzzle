@@ -1,6 +1,6 @@
 <view class="container">
   <image class='icon' src='../../images/welcome.png'></image>
-  <text class="motto">GoPlay</text>
+  <image class='logo' src='../../images/logo.png'></image>  
   <view class="welcome-button-stroy" bindtap='onStory'>
     <text class='stroy-text'>海龟汤故事</text>
   </view>
