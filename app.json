@@ -5,7 +5,9 @@
     "pages/story/story-detail/story-detail"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#4B4B4B"
+    "navigationBarBackgroundColor": "#fcfdff",
+    "navigationBarTextStyle": "black"
+    
   },
   "sitemapLocation": "sitemap.json"
 }
