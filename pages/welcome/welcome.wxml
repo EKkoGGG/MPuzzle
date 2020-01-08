@@ -5,5 +5,5 @@
   <text class='product-name'>GoPlay</text>
   <text class='product-slogan'>老友鬼鬼 得闲聚聚</text>
   <button class='welcome-button-stroy' hover-class='welcome-button-stroy-hover' bindtap='onStory'>海龟汤故事</button>
-  <text class='company'>© KeepYourCuriosity ltd.</text>
+  <text class="{{isIPX ? 'company-IPX' : 'company'}}">© KeepYourCuriosity ltd.</text>
 </view>

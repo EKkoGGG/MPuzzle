@@ -6,6 +6,9 @@ App({
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
 
+    // 判断设备是否为 iPhone X
+    this.checkIsIPhoneX();
+    
     // 登录
     wx.login({
       success: res => {
@@ -32,8 +35,28 @@ App({
         }
       }
     })
+
+    
   },
   globalData: {
-    userInfo: null
-  }
+    userInfo: null,
+    isIPX : false,
+  },
+
+  checkIsIPhoneX: function () {
+    const self = this
+    wx.getSystemInfo({
+      success: function (res) {
+        // 根据 model 进行判断
+        if (res.model.search('iPhone X') != -1) {
+          self.globalData.isIPX = true
+        }
+        // 或者根据 screenHeight 进行判断
+        // if (res.screenHeight == 812) {
+        //   self.globalData.isIPX = true
+        // }
+      }
+    })
+  },
+
 })
