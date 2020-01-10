@@ -1,8 +1,6 @@
 .story-detail {
   display: flex;
   flex-direction: column;
-  
-  
 }
 
 .story-detail-text {

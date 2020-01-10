@@ -5,21 +5,15 @@
 
 .story-detail-text {
   margin: 20rpx;
-  border: 1px solid #555;
   border-radius: 5px;
   padding: 10px;
-  background-color: #4b4b4b;
-  color: rgb(202, 201, 201);
   font-size: 35rpx;
 }
 
 .story-detail-answer {
   margin: 20rpx;
-  border: 1px solid #555;
   border-radius: 5px;
   padding: 10px;
-  background-color: #4b4b4b;
-  color: rgb(202, 201, 201);
   font-size: 35rpx;
   visibility: hidden;
 }

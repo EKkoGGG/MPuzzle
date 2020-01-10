@@ -1,7 +1,5 @@
 <template name='story-button'>
-  <view class='story-button'>
     <button>{{item.title}}</button>
-  </view>
 </template>
 
 <template name='story-detail'>
