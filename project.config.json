@@ -15,7 +15,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.7.1",
 	"appid": "wx0965de16bb00a0cd",
-	"projectname": "GoPlay",
+	"projectname": "MPuzzle",
 	"cloudfunctionTemplateRoot": "",
 	"debugOptions": {
 		"hidedInDevtools": []

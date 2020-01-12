@@ -2,8 +2,8 @@
   <view class='logo-bottom'>
     <image class='logo' src='../../images/logo.png'></image>
   </view>
-  <text class='product-name'>GoPlay</text>
-  <text class='product-slogan'>老友鬼鬼 得闲聚聚</text>
+  <text class='product-name'>M·Puzzle</text>
+  <text class='product-slogan'>保持好奇心</text>
   <button class='welcome-button-stroy' hover-class='welcome-button-stroy-hover' bindtap='onStory'>海龟汤故事</button>
   <text class="{{isIPX ? 'company-IPX' : 'company'}}">© KeepYourCuriosity ltd.</text>
 </view>
