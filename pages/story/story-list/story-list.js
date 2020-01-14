@@ -1,5 +1,5 @@
-var story_data = require('../../../data/story-data.js');
-
+var story_data = require('../../../data/story-data.js')
+var app = getApp()
 Page({
 
   /**
@@ -13,6 +13,14 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    var storyTitleUrl = app.globalData.storyTitleUrl
+    wx.request({
+      url: storyTitleUrl,
+      method:'GET',
+      success:function(res){
+        console.log('ok')
+      },
+    })
     this.setData({
       story_data: story_data.stroy_item
     })
