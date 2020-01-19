@@ -12,15 +12,23 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
-    var that = this
-    var storyTitleUrl = app.globalData.storyTitleUrl
-    wx.request({
-      url: storyTitleUrl,
-      method: 'GET',
-      success: function(res) {
-        that.processStoryData(res.data)
-      },
-    })
+    var storyTitles = wx.getStorageSync('story_data')
+    if (storyTitles) {
+      this.setData({
+        story_data: storyTitles
+      }) 
+    }
+    else{
+      var that = this
+      var storyTitleUrl = app.globalData.storyTitleUrl
+      wx.request({
+        url: storyTitleUrl,
+        method: 'GET',
+        success: function(res) {
+          that.processStoryData(res.data)
+        },
+      })
+    }
   },
 
   processStoryData: function(datas) {
@@ -34,6 +42,7 @@ Page({
       }
       storyTitles.push(temp)
     }
+    wx.setStorageSync('story_data', storyTitles)
     this.setData({
       story_data: storyTitles
     })    
