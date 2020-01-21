@@ -41,8 +41,8 @@ App({
   globalData: {
     userInfo: null,
     isIPX : false,
-    storyUrl : 'http://192.168.56.2:5000/api/story/',
-    storyTitleUrl : 'http://192.168.56.2:5000/api/story/title/',
+    storyUrl : 'http://172.20.10.3:5000/api/story/',
+    storyTitleUrl : 'http://172.20.10.3:5000/api/story/title/',
   },
 
   checkIsIPhoneX: function () {
