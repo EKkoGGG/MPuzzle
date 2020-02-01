@@ -1,11 +1,15 @@
 .container{
   display:flex;
   flex-direction: column;
-  
 }
 
 .story-rule {
   margin: 50rpx;
+  padding: 30rpx;
+  border-radius: 5rpx;
+  background-color: #fcfdff;
+  box-shadow:0 6rpx 10rpx 2rpx #ebe3e3;/*for Android*/
+  -webkit-box-shadow:0px 3px 5px 1px #ebe3e3;/*for IOS*/
 }
 
 .story-rule-text {
@@ -16,8 +20,9 @@
 
 .story-button{
   margin-top: 40rpx;
-  margin-left: 15rpx;
-  margin-right: 15rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  width: 650rpx;
   border-radius: 98rpx;
 
 }

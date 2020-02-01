@@ -5,7 +5,7 @@
     "pages/story/story-detail/story-detail"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#fcfdff",
+    "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black"
     
   },
