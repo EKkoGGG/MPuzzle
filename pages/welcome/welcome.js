@@ -21,6 +21,11 @@ Page({
     wx.navigateTo({
       url: '../story/story-list/story-list',
     })
+  },
+  onMystery: function (event) {
+    wx.navigateTo({
+      url: '../mystery/mystery-list/mystery-list',
+    })
   }
 
 })

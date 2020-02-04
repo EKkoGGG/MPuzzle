@@ -43,6 +43,7 @@ App({
     isIPX : false,
     storyUrl: 'http://192.168.0.106:5000/api/story/',
     storyTitleUrl: 'http://192.168.0.106:5000/api/story/title/',
+    storysearchUrl:'http://192.168.0.106:5000/api/story/title?searchString=',
   },
 
   checkIsIPhoneX: function () {

@@ -1,5 +1,5 @@
-.container{
-  display:flex;
+.container {
+  display: flex;
   flex-direction: column;
 }
 
@@ -8,8 +8,8 @@
   padding: 30rpx;
   border-radius: 5rpx;
   background-color: #fcfdff;
-  box-shadow:0 6rpx 10rpx 2rpx #ebe3e3;/*for Android*/
-  -webkit-box-shadow:0px 3px 5px 1px #ebe3e3;/*for IOS*/
+  box-shadow: 0 6rpx 10rpx 2rpx #ebe3e3; /*for Android*/
+  -webkit-box-shadow: 0px 3px 5px 1px #ebe3e3; /*for IOS*/
 }
 
 .story-rule-text {
@@ -18,11 +18,90 @@
   word-break: break-all;
 }
 
-.story-button{
+.story-button {
   margin-top: 40rpx;
-  margin-left: 50rpx;
+  margin-left: 26rpx;
   margin-right: 50rpx;
   width: 650rpx;
-  border-radius: 98rpx;
+  border-radius: 5rpx;
+  text-align: left;
+}
 
+.story-button-view {
+  margin-top: 40rpx;
+  margin-left: 26rpx;
+  margin-right: 50rpx;
+  width: 650rpx;
+  border-radius: 5rpx;
+  text-align: left;
+}
+
+.story-button::after {
+  position: absolute;
+  font-family: PingFang SC;
+  font-size: 70rpx;
+  font-weight: bolder;
+  left: 600rpx;
+  content: ">";
+}
+
+.story-search {
+  position: relative;
+  margin-top: 40rpx;
+}
+
+.story-search_input {
+  margin-top: 40rpx;
+  margin-left: 50rpx;
+  width: 560rpx;
+  height: 85rpx;
+  font-family: PingFang SC;
+  font-size: 37rpx;
+  color: #173498;
+  background-color: #fcfdff;
+  font-weight: bold;
+  box-shadow: 0 6rpx 10rpx 2rpx #ebe3e3;
+  -webkit-box-shadow: 0px 2px 5px 1px #dfd5d5;
+  padding-left: 14px;
+  padding-right: 14px;
+  box-sizing: border-box;
+  line-height: 2.55555556;
+}
+
+.search-img {
+  position: absolute;
+  top: 20rpx;
+  left: 640rpx;
+  width: 45rpx;
+  height: 45rpx;
+}
+
+.sk-rotating-plane {
+  position: absolute;
+  z-index: 9999;
+  top: 450rpx;
+  left: 315rpx;
+  width: 60px;
+  height: 60px;
+  background-color: #173498;
+  /* margin: 40px auto; */
+  -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
+  animation: sk-rotatePlane 1.2s infinite ease-in-out;
+}
+
+@keyframes sk-rotatePlane {
+  0% {
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+
+  50% {
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+  }
+
+  100% {
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
 }

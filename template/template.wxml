@@ -1,5 +1,5 @@
 <template name='story-button'>
-    <button>{{item.title}}</button>
+    <button class= 'story-button'>{{item.title}}</button>
 </template>
 
 <template name='story-detail'>

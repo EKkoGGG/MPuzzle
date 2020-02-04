@@ -48,7 +48,31 @@
 .welcome-button-stroy-hover{
   position: relative;
   top: 5rpx;
-  margin-top: 100rpx;
+  /* margin-top: 100rpx; */
+  width: 80%;
+  height: 100rpx;
+  border-radius: 98rpx; 
+  text-align: center;
+  font-size: 45rpx;
+  /* color: #b6bfc6; */
+  background-color: #b6bfc6;
+  line-height: 100rpx;
+  
+}
+
+.welcome-button-mystery {
+  margin-top: 35rpx;
+  width: 80%;
+  height: 100rpx;
+  border-radius: 98rpx; 
+  text-align: center;
+  font-size: 45rpx;
+  line-height: 100rpx;
+}
+
+.welcome-button-mystery-hover{
+  position: relative;
+  top: 5rpx;
   width: 80%;
   height: 100rpx;
   border-radius: 98rpx; 
@@ -61,13 +85,13 @@
 }
 
 .company{
-  margin-top: 300rpx;
+  margin-top: 200rpx;
   font-size: 25rpx;
   color: #b6bfc6;
 }
 
 .company-IPX{
-  margin-top: 500rpx;
+  margin-top: 400rpx;
   font-size: 25rpx;
   color: #b6bfc6;
 }

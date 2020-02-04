@@ -1,10 +1,15 @@
 <import src="../../../template/template.wxml" />
 <view class='contianer'>
+  <view class="sk-rotating-plane" hidden="{{loading_hidden}}"></view>
   <view class='story-rule'>
     <text class='story-rule-text'>规则：随机选一名主讲人，主讲人给玩家讲述故事。讲完后玩家向主讲人提问，主讲人根据故事回答玩家提问，但是主讲人只能回答玩家“是”，“不是”，“于此无关”。玩家根据主讲人的回答解开故事背后的答案。</text>
   </view>
+  <view class='story-search'>
+    <input type="text" class="story-search_input" placeholder="请输入搜索内容" bindinput="storyTitleInput" />
+    <image src='../../../images/search.png' class='search-img' bindtap='onSearch'></image>
+  </view>
   <block wx:key='1' wx:for='{{story_data}}' wx:for-item='item'>
-    <view class='story-button' catchtap='onStoryButton' data-id='{{item.id}}'>
+    <view class='story-button-view' catchtap='onStoryButton' data-id='{{item.id}}'>
       <template is="story-button" data='{{item}}' />
     </view>
   </block>

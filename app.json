@@ -2,12 +2,12 @@
   "pages": [
     "pages/welcome/welcome",
     "pages/story/story-list/story-list",
-    "pages/story/story-detail/story-detail"
+    "pages/story/story-detail/story-detail",
+    "pages/mystery/mystery-list/mystery-list"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black"
-    
   },
   "sitemapLocation": "sitemap.json"
 }
